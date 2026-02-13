@@ -16,7 +16,6 @@ Each release contains:
 
 - `RF-Sequencer-vX.Y.Z.uf2` — main firmware image  
 - `CHANGELOG.md` entry describing what changed  
-- Optional `latest/` folder with the most recent stable build  
 
 You can also download firmware from the GitHub Releases page.
 
