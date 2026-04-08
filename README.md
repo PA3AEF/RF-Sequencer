@@ -18,7 +18,9 @@ This RF‑Sequencer combines robust hardware, carefully engineered firmware, and
 - **Machine‑friendly event stream** for automation and logging  
 - **Non‑volatile configuration storage (LittleFS)**  
 - **Serial interface** for local or remote control  
-- **Modular, maintainable firmware architecture**  
+- **Modular, maintainable firmware architecture**
+- **Flexible relay architecture supporting two relays including latching and non‑latching types**
+
 
 ---
 
