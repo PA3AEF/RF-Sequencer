@@ -41,7 +41,7 @@ The abstraction ensures that:
 
 This separation allows the firmware to support a wide range of relay hardware without altering the sequencing logic.
 
-## ** Deterministic Transition Semantics**
+## **Deterministic Transition Semantics**
 All relay transitions follow a deterministic sequence defined by the state machine.
 The relay subsystem enforces:
 
