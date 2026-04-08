@@ -14,7 +14,7 @@ Precompiled firmware files are located in: firmware/releases
 
 Each release contains:
 
-- `RF-Sequencer-vX.Y.Z.uf2` — main firmware image  
+- `RFSequencer-PicoTYPE-VX.Y.uf2` — main firmware image  
 - `CHANGELOG.md` entry describing what changed  
 
 You can also download firmware from the GitHub Releases page.
