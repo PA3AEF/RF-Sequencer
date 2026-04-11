@@ -1,5 +1,1 @@
-# **Hardware Documentation (Coming Soon)**
-
-This section will contain wiring diagrams, schematics, PCB notes, ADC protection details, and recommended hardware practices for SHF feedpoint installations.
-
-The hardware documentation is being prepared and will be added in a future revision.
+Everything rekated to Hardware.  PCB's (4 layers!) can be easily order from JLCPCB. Submit the production ZIP file from the PCB section. Files are provided for PCBA (PCB Assembly) but it is expensive for small series.   
