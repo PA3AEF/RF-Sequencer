@@ -188,7 +188,17 @@ maintainable, and easy to reason about.
 
 ---
 
-# **7. Relay Sequencing Engine**
+# **7. Relay Subsystem**
+The relay subsystem provides the abstraction layer between the state machine and the physical RF switching hardware.
+It models the relay topology (single‑relay TX‑only or dual‑relay TX+RX) and the relay actuation type (monostable or latching) as structural properties of the installation.
+The subsystem exposes a stable logical interface to the state machine, ensuring that sequencing, SAFE‑mode transitions, and protection responses remain deterministic regardless of relay technology.
+
+Internally, the subsystem guarantees ordered transitions, bounded switching latency, and a well‑defined relay state at all times.
+This allows the protection engine and timing model to operate without assumptions about relay physics, while maintaining consistent behavior across different RF station architectures.
+
+---
+
+# **8. Relay Sequencing Engine**
 The relay sequencing engine is responsible for executing state transitions safely and precisely. It handles
 all timing, ordering, and validation required to move between relay configurations without ever blocking the
 main loop.
@@ -215,7 +225,7 @@ This design allows the sequencer to operate reliably in demanding RF installatio
 
 ---
 
-# **8. Configuration Storage**
+# **9. Configuration Storage**
 
 The configuration subsystem provides persistent, fault‑tolerant storage for all user‑defined parameters,
 including timing values, protection thresholds, calibration factors, and feature toggles. It is built on top
@@ -241,7 +251,7 @@ location.
 
 ---
 
-# **9. CLI Subsystem**
+# **10. CLI Subsystem**
 
 The Command Line Interface (CLI) is the primary human‑ and machine‑interaction layer of the RF‑Sequencer.
 It is intentionally simple, robust, and text‑based so it can operate reliably over any transport: USB serial, remote serial bridges, IP‑serial converters, or embedded controllers inside larger RF systems.
@@ -276,7 +286,7 @@ Architectural notes:
 
 ---
 
-# **10. Event Generator**
+# **11. Event Generator**
 
 The event generator provides a transparent, machine‑friendly stream of system activity. Every significant action, state transitions, faults, configuration updates, calibration progress, and periodic measurements is emitted as a clean, line‑oriented event suitable for both human operators and automated systems.
 
@@ -297,7 +307,7 @@ integration-examples.md
 
 ---
 
-# **11. Heartbeat System**
+# **12. Heartbeat System**
 
 The heartbeat LED provides immediate, at‑a‑glance insight into the sequencer’s operational state. It is
 intentionally simple, non‑blocking, and expressive, serving as a universal status indicator even when no
