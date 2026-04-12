@@ -5,6 +5,8 @@ A deterministic, safety‑driven controller for RF sequencing, protection, and r
 
 This RF‑Sequencer combines robust hardware, carefully engineered firmware, and clear documentation to deliver a professional‑grade solution for T/R control, VSWR protection, and remote operation.
 
+![RF Sequencer](./img/RF_Sequencer_T1_0.5.png)
+
 ---
 
 # **Features**
