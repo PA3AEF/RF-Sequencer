@@ -146,6 +146,8 @@ When the connection is established, the CLI prompt appears:
 >
 ```
 
+**NOTE:** A description of CLI commands is available in [./docs/firmware/Cli.md](./docs/firmware/Cli.md) describes CLI commands.
+
 ---
 
 # **Calibration Wizard**
