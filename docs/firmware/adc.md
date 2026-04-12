@@ -62,7 +62,7 @@ All ADC‑derived values feed into the protection engine, which:
 - Detects unsafe VSWR  
 - Detects fast reflections  
 - Forces Safe Mode when necessary  
-- Latches last fault for debugging citeturn20search21
+- Latches last fault for debugging
 
 This ensures the RF chain remains protected even during transient events.
 

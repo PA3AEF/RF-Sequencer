@@ -45,7 +45,7 @@ The firmware is distributed as **binary‑only** (`.uf2`) and licensed under **0
 All firmware releases appear as `.uf2` binaries in:
 
 - `firmware/releases/`
-- The GitHub Releases page (if provided by the maintainer)
+- The GitHub Releases page (if I don't forget)
 
 Each UF2 file is flashed directly via BOOTSEL mode.
 

@@ -143,18 +143,3 @@ function handleEvent(line) {
 - Direct UART0 integration via Web Serial API  
 - Instant visualization of the sequencer’s behavior  
 
----
-
-# **3. Linking From the Architecture Document**
-
-In `firmware-architecture.md`, you can reference this supplemental doc like so:
-
-```
-For practical examples of consuming the UART0 event stream, see:
-
-integration-examples.md
-```
-
----
-
-If you want, I can also add a **Node‑RED flow**, a **Grafana dashboard template**, or a **MQTT bridge example** to expand this supplemental doc even further.

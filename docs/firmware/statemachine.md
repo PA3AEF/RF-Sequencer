@@ -19,13 +19,13 @@ Initial firmware state immediately after boot.
 
 ### **2. RX (Receive Mode)**
 Default operating state.
-- TR relay positioned for receive
+- TR relay and RX relay (if present)) positioned for receive
 - PA disabled
 - Inputs continuously monitored
 - ADC values sampled (FWD, REF, AUX)
 - VSWR and REF_FAST checks active
 
-The sequencer remains in RX until a valid transmit request is detected.
+The sequencer remains in RX state until a valid transmit request is detected.
 
 ### **3. TX_WAIT_PA_RDY**
 Intermediate state while preparing for transmit.
