@@ -4,6 +4,7 @@ This folder contains all documentation for the RF‑Sequencer project: quickstar
 
 ---
 
+
 # **1. Background & Motivation**
 
 The RF‑Sequencer was created to solve a practical problem: safely and reliably controlling RF hardware in remote or hard‑to‑reach locations. In SHF systems — especially dish‑feedpoint boxes, tower‑top amplifiers, and remote stations — timing accuracy and protection are critical. A single relay glitch or delayed protection response can damage expensive hardware or interrupt operation during contests or EME sessions.

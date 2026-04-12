@@ -7,6 +7,7 @@ If you only want to operate the sequencer, this is the only folder you need.
 
 ---
 
+![RF_Sequencer](./img/RF_Sequencer_T1.png)
 ## **Firmware Releases**
 
 Precompiled firmware files are located in: firmware/releases
