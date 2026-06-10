@@ -1,3 +1,11 @@
+---
+title: Overview
+parent: Integration
+nav_order: 1
+---
+
+# Overview
+
 # **Event Monitoring Examples**
 
 The examples here demonstrate how an external system can consume the RF‑Sequencer’s event stream using a simple HTML page. or Python script. It illustrates the structure of emitted events and shows how they can be displayed or processed by a monitoring application.

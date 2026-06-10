@@ -1,3 +1,11 @@
+---
+title: Developer Integration Guide
+parent: Integration
+nav_order: 2
+---
+
+# Overview
+
 # **Developer Integration Guide**
 
 This guide describes how external systems can integrate with the RF‑Sequencer using its event‑driven communication model.  

@@ -1,3 +1,11 @@
+---
+title: Integration Examples
+parent: Integration
+nav_order: 3
+---
+
+# Overview
+
 # **Integration Examples**
 
 This document describes how external systems can integrate with the RF‑Sequencer using its event‑driven communication model.  

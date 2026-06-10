@@ -1,3 +1,11 @@
+---
+title: Relay Subsystem Architecture
+parent: Architecture
+nav_order: 3
+---
+
+# Overview
+
 # **Relay Subsystem Architecture**
 
 The relay subsystem provides the abstraction layer between the firmware’s logical sequencing model and the physical RF switching hardware.  

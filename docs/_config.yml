@@ -1,0 +1,8 @@
+title: RF-Sequencer
+description: Modular RF relay sequencer with PLL control
+theme: just-the-docs
+
+just_the_docs:
+  logo: "/assets/logo.png"
+  search_enabled: true
+  navigation_depth: 3

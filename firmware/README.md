@@ -1,3 +1,11 @@
+---
+title: Upload Firmware
+parent: Firmware
+nav_order: 1
+---
+
+# Overview
+
 # **RF‑Sequencer Firmware**
 
 This folder contains the **precompiled firmware binaries** for the RF‑Sequencer.  
