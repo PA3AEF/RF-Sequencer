@@ -5,23 +5,23 @@ main:
   - title: "Quickstart"
     children:
       - title: "Quickstart Guide"
-        url: "/quickstart/quickstart"
+        url: "/docs/quickstart/quickstart"
 
   - title: "Architecture"
     children:
       - title: "Overview"
-        url: "/architecture/overview"
+        url: "docs/architecture/overview"
       - title: "Firmware Architecture"
-        url: "/architecture/firmware-architecture"
+        url: "/architecture/firmware-architecture.md"
       - title: "Relay Architecture"
-        url: "/architecture/relay-architecture"
+        url: "/docs/architecture/relay-architecture.md"
       - title: "Integration Examples"
-        url: "/architecture/integration-examples"
+        url: "/docs/architecture/integration-examples.md"
 
   - title: "Firmware"
     children:
       - title: "Upload Firmware"
-        url: "/upload_firmware"
+        url: "firmware/upload_firmware"
 
   - title: "Project"
     children:
