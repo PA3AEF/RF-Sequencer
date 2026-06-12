@@ -11,7 +11,7 @@ Welcome to the documentation for the **RF‑Sequencer** — a modular, safe, and
 
 - **Quickstart** — Getting the sequencer running: [Quickstart Guide](quickstart/quickstart.md)  
 - **Architecture** — System overview, firmware and relay architecture: [Overview](architecture/overview.md)  
-- **Firmware** — How to upload and manage firmware: [Upload Firmware](upload_firmware.md)  
+- **Firmware** — How to upload and manage firmware: [Upload Firmware](README.md)  
 - **Project** — README and licensing information: [Project README](readme.md)
 
 ---
