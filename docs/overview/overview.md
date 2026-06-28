@@ -1,11 +1,3 @@
----
-title: Overview
-parent: Architecture
-nav_order: 1
----
-
-# Overview
-
 # **RF‑Sequencer Architecture Overview**
 
 The RF‑Sequencer provides a deterministic control layer for managing RF path transitions, amplifier protection, and timing‑critical sequencing in radio systems.  

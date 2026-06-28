@@ -1,11 +1,3 @@
----
-title: Firmware Architecture
-parent: Architecture
-nav_order: 2
----
-
-# Overview
-
 # **Firmware Architecture**
 
 The firmware architecture defines the deterministic execution model, subsystem boundaries, and interaction rules that govern all sequencing, protection, and relay behavior in the RF‑Sequencer.  

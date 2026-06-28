@@ -1,11 +1,3 @@
----
-title: Quick Start Guide
-parent: Quickstart
-nav_order: 1
----
-
-# Overview
-
 # **RF‑Sequencer – Quick Start Guide**
 
 This guide helps you get the RF‑Sequencer wired, configured, and operational in just a few minutes.  
